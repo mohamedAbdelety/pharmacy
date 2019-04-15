@@ -1,0 +1,142 @@
+
+body
+{
+		
+	background: url('../image/DSC03463.jpg') no-repeat center center fixed;
+	background-size: cover;
+}
+
+.overly
+{
+	background-color: rgba(2,2,2,.5);
+	height: 662px;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+
+.calculator
+{
+	width: 500px;
+	margin-top: 140px;
+	height: 420px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: rgba(2,2,2,.7);
+	overflow: hidden;
+	position: relative;
+	border-radius: 7px;
+}
+ul
+{
+	list-style-type: none;
+}
+
+.screen
+{
+	height: 70px;
+	line-height: 70px;
+	text-align: right;
+	font-size: 35px;
+	color: #ddd;
+	padding-right: 40px;
+}
+
+.numbers
+{
+	float: left;
+	width: 380px;
+}
+
+.numbers li
+{
+	color: #fff;
+	background-color: #000;
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	margin: 2px;
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+	display: inline-block;
+
+}
+
+.operator
+{
+	position: absolute;
+	right: 30px;
+	top: 70px;
+}
+
+.operator li
+{
+	color: #fff;
+	background-color: #3e4443;
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	margin: 3px;
+	text-align: center;
+	font-size: 24px;
+	color: #fff;
+	border-radius: 4px;
+	cursor: pointer;
+
+}
+
+
+
+
+ .equal
+{
+	width: 204px;
+    height: 40px;
+    color: #fff;
+    position: absolute;
+    bottom: 15px;
+    left: 43px;
+    line-height: 40px;
+    background: #08F;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+
+ .clear
+{
+	position: absolute;
+	bottom: 15px;
+	left: 270px;
+	color: #fff;
+	text-align: center;
+    font-size: 24px;
+    background-color: #f00;
+    left: 260px;
+    width: 97px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+ .clearlast
+{
+	position: absolute;
+	bottom: 15px;
+	left: 370px;
+	color: #fff;
+	text-align: center;
+    font-size: 24px;
+    background-color: #f00;
+    height: 40px;
+    line-height: 40px;
+    width: 97px;
+    cursor: pointer;
+
+}
